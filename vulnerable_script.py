@@ -1,6 +1,10 @@
 # vulnerable_script.py
 import os
 import sys
+# app.py
+import requests
+
+print("Testing Dependabot...")
 
 def ping_host(hostname):
     """
